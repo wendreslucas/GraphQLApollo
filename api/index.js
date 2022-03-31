@@ -1,4 +1,5 @@
 const { ApolloServer, gql } = require('apollo-server')
+const { userSchema } = require('./user/schema/user.graphql')
 
 const users = [
   {
@@ -11,10 +12,7 @@ const users = [
   }
 ]
 
-type User = {
-  nome: string!,
-  ativo: boolean!,
-  email: string
-}
+const typeDefs = [userSchema]
+const resolvers = {}
 
 const server = new ApolloServer({ typeDefs, resolvers })
