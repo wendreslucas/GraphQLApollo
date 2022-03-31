@@ -11,3 +11,10 @@
 - Subir o servidor GraphQL
 - Criar resolvers para implementar as definições do schema
 - Utilizar o Playground para fazer testes e consultar a documentação automática
+  <br/>
+- Conectar com uma base de dados (endpoints rest)
+- Unir schema, resolver e dados
+- Parâmetros do resolver para que servem
+- Como utilizar parâmetros no GraphQL
+- Utilizar parâmetros nas queries
+- Trabalhar com dados de diferentes fontes/endpoints
